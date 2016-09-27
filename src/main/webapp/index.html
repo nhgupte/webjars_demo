@@ -1,0 +1,23 @@
+<html>
+<head>
+<link rel='stylesheet' href='/webjars/bootstrap/css/bootstrap.min.css'>
+</head>
+<body ng-app="greetingApp">
+<div class="container">
+	<nav class="navbar navbar-inverse">
+		<ul class="nav navbar-nav">
+			<li class="active"><a href="#">GreetingsApp</a></li>
+		</ul>
+	</nav>
+</div>
+	<div class="container">
+		<div ng-view=""></div>
+	</div>	
+	<script src="/webjars/jquery/jquery.min.js"></script>
+	<script src="/webjars/bootstrap/js/bootstrap.min.js"></script>
+	<script src="/webjars/angular/angular.min.js"></script>
+	<script src="/webjars/angular-route/angular-route.min.js"></script>
+	<script src="scripts/app.js"></script>
+	<script src="scripts/controllers/main.js"></script>
+</body>
+</html>
